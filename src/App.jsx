@@ -6,6 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
+
     //Sett default state
     this.state = {
       userList: [
@@ -39,6 +40,7 @@ class App extends Component {
     arr = [1, 2, [...arr2], 3, 4, 5];
 
     console.log('EVENT');
+    console.log('CHAROT');
   
     const {name, value} = e.target;
     this.setState((prevState) => ({
